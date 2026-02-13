@@ -1,0 +1,12 @@
+# This is a comment.
+# The global owners for all files.
+* @global-owner1 @global-owner2
+
+# Changes to JS files will only be reviewed by @js-owner.
+*.js @js-owner
+
+# Files in the build/logs directory are owned by @doctocat.
+/build/logs/ @doctocat
+
+# The octocats team in the octo-org organization owns all .txt files.
+*.txt @octo-org/octocats
